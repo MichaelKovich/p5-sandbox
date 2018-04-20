@@ -1,5 +1,5 @@
-export default function pieChart(p, props) {
-  const angles = props.array;
+export default function pieChart(p) {
+  const angles = [30, 10, 45, 35, 60, 38, 75, 67];
 
   p.setup = function () {
     p.createCanvas(720, 400);

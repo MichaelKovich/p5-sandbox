@@ -6,7 +6,7 @@ export default function oscillator(p) {
     fft;
 
   p.setup = function () {
-    p.createCanvas(720, 256);
+    p.createCanvas(900, 400);
 
     osc = new p5.TriOsc(); // set frequency and type
     osc.amp(0.5);
